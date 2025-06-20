@@ -85,7 +85,7 @@ class WanOptimalResolution:
             "required": {
                 "image": ("IMAGE",),
                 # Изменяем определение для resolution_group, чтобы указать default
-                "Base resolution": (SORTED_RESOLUTION_GROUPS, {
+                "resolution_group": (SORTED_RESOLUTION_GROUPS, {
                     "default": DEFAULT_RESOLUTION_GROUP
                 }),
             },
